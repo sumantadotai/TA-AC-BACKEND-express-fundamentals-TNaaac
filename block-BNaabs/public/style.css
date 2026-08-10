@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(to right, pink, blue, violet);
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+form {
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+input {
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  width: 100%;
+}
