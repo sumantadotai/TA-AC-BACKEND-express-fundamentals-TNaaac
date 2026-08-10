@@ -1,0 +1,28 @@
+@import "home";
+@import "project";
+@import "blogs";
+
+body {
+  background: linear-gradient(to right, pink, violet, rgb(48, 130, 223));
+  line-height: 1.5;
+  header {
+    text-align: center;
+  }
+}
+
+img {
+  width: 350px;
+  height: 250px;
+  border-radius: 1.5rem;
+  border: 1px solid black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+div {
+  text-align: center;
+}
